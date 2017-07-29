@@ -1,0 +1,19 @@
+PODS:
+  - SYAlipaySDK (0.1.0)
+  - SYWechatOpenSDK (1.7.9)
+
+DEPENDENCIES:
+  - SYAlipaySDK (from `../`)
+  - SYWechatOpenSDK
+
+EXTERNAL SOURCES:
+  SYAlipaySDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SYAlipaySDK: ad27142043e7e7efa2988e0f892ecb112c3fd3e4
+  SYWechatOpenSDK: f93b2e77a3ea8cdb70d535ec1605a5612bac72d6
+
+PODFILE CHECKSUM: e28e9a73f4a83686b2aa1e9eb2cb1569700a0e41
+
+COCOAPODS: 1.1.1

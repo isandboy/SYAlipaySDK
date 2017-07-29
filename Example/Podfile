@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'SYAlipaySDK_Example' do
+  pod 'SYAlipaySDK', :path => '../'
+
+  target 'SYAlipaySDK_Tests' do
+    inherit! :search_paths
+    pod 'SYWechatOpenSDK'
+  end
+end

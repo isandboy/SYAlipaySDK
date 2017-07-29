@@ -1,0 +1,44 @@
+{
+  "name": "SYAlipaySDK",
+  "version": "0.1.0",
+  "summary": "A short description of SYAlipaySDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/isandboy/SYAlipaySDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "isandboy": "sandboylu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/isandboy/SYAlipaySDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "public_header_files": "SYAlipaySDK/AlipaySDK.framework/**/*.h",
+  "source_files": "SYAlipaySDK/**/*.{h,m}",
+  "vendored_frameworks": "SYAlipaySDK/AlipaySDK.framework",
+  "resources": "SYAlipaySDK/AlipaySDK.bundle",
+  "libraries": [
+    "c++",
+    "z"
+  ],
+  "frameworks": [
+    "CoreTelephony",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "QuartzCore",
+    "CoreText",
+    "CoreGraphics",
+    "UIKit",
+    "Foundation",
+    "CFNetwork",
+    "CoreMotion"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-all_load"
+  }
+}
