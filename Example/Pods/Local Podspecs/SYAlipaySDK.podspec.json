@@ -1,8 +1,8 @@
 {
   "name": "SYAlipaySDK",
-  "version": "0.1.0",
-  "summary": "A short description of SYAlipaySDK.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "15.7.9",
+  "summary": "集成支付宝支付SDK，支持打包成动态库",
+  "description": "1. 库版本和支付宝官方提供的SDK版本对应关系见Readme文件里面的版本说明\n2. 在支付宝App支付官方SDK包了一层，支持打包成动态库",
   "homepage": "https://github.com/isandboy/SYAlipaySDK",
   "license": {
     "type": "MIT",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/isandboy/SYAlipaySDK.git",
-    "tag": "0.1.0"
+    "tag": "15.7.9"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "public_header_files": "SYAlipaySDK/AlipaySDK.framework/**/*.h",
   "source_files": "SYAlipaySDK/**/*.{h,m}",
@@ -36,7 +36,8 @@
     "UIKit",
     "Foundation",
     "CFNetwork",
-    "CoreMotion"
+    "CoreMotion",
+    "WebKit"
   ],
   "pod_target_xcconfig": {
     "OTHER_LDFLAGS": "-all_load"

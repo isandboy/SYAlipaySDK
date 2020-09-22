@@ -28,13 +28,13 @@ Pod::Spec.new do |s|
   s.author           = { 'isandboy' => 'sandboylu@gmail.com' }
   s.source           = { :git => 'https://github.com/isandboy/SYAlipaySDK.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.public_header_files = 'SYAlipaySDK/AlipaySDK.framework/**/*.h'
   s.source_files = 'SYAlipaySDK/**/*.{h,m}'
   s.vendored_frameworks = 'SYAlipaySDK/AlipaySDK.framework'
   s.resource = 'SYAlipaySDK/AlipaySDK.bundle'
   s.libraries = 'c++', 'z'
-  s.frameworks = 'CoreTelephony', 'SystemConfiguration', 'CoreTelephony', 'QuartzCore', 'CoreText', 'CoreGraphics', 'UIKit', 'Foundation', 'CFNetwork', 'CoreMotion'
+  s.frameworks = 'CoreTelephony', 'SystemConfiguration', 'CoreTelephony', 'QuartzCore', 'CoreText', 'CoreGraphics', 'UIKit', 'Foundation', 'CFNetwork', 'CoreMotion', 'WebKit'
 
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
 
