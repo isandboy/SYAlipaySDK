@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SYAlipaySDK'
-  s.version          = '1.0.0'
+  s.version          = '15.7.9'
   s.summary          = '集成支付宝支付SDK，支持打包成动态库'
 
 # This description is used to generate tags and improve search results.
