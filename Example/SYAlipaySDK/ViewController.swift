@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(AlipaySDK.defaultService().currentVersion())
+//        print(AlipaySDK.defaultService().currentVersion())
     }
 
     override func didReceiveMemoryWarning() {

@@ -36,6 +36,6 @@ Pod::Spec.new do |s|
   s.libraries = 'c++', 'z'
   s.frameworks = 'CoreTelephony', 'SystemConfiguration', 'CoreTelephony', 'QuartzCore', 'CoreText', 'CoreGraphics', 'UIKit', 'Foundation', 'CFNetwork', 'CoreMotion', 'WebKit'
 
-  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
-
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load','VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  
 end
